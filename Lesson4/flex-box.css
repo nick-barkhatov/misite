@@ -1,0 +1,55 @@
+.menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+/*Создадим блок контейнер для всех элементов шапки и выровняем их по центру*/ 
+ 
+.header-row { 
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+} 
+
+/*Выравняваем картинку и название. Зададим часть, которую займет блок и назаванием*/ 
+     
+.header-logo{ 
+    display: flex; 
+    flex-direction: row; 
+    align-items: center; 
+    flex-grow: 1; 
+} 
+
+.logo-img{
+    margin-right: 40px;
+}
+
+.header-menu{
+    flex-grow: 3;
+}
+/*Cards*/
+.cards-row{ 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+} 
+
+/*footer*/
+
+.footer-row{
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-between; 
+}
+
+.social-networks{
+    display: flex;    
+    justify-content: flex-end; 
+}
+
+.footer-logo{
+    margin: 10px;
+    width: 60px;
+    height: 60px;
+}
